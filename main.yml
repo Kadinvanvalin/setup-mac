@@ -1,0 +1,15 @@
+---
+- hosts: all
+
+  tasks:
+    - name: install all apps
+      pause:
+        prompt: "install all of your appstore and brew applications"
+    - name: install vimac
+      pause:
+        prompt: "need to install vimac and prompt for any other apps you need to install manually"
+    - name: run mackup
+      pause:
+        prompt: "run mackup to sync all config - I dont know if dotfiles should be included or separate from this "
+
+
